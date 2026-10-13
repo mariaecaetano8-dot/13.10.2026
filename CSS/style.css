@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    height: 80px;
+}
+
+.botao{
+    border: none;
+    background-color: pink;
+    color: rgb(253, 0, 177);
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.logo{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(253, 0, 177);
+}
+
+.container-header img{
+
+    height: 60px;
+    width: 70px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.container-titulo{
+    height: 120px;
+    width:  800px;
+   
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: rgb(232, 109, 130);
+    display: flex;
+     align-items: center;
+    padding-left: 20px;
+    justify-content: space-between;
+    
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+   
+}
